@@ -12,5 +12,4 @@ if ($conn->connect_error) {
     die("Erro ao conectar à base de dados: " . $conn->connect_error);
 }
 
-
 ?>
