@@ -49,7 +49,7 @@ Bootstrap 5 Form Pack Template
                                 Felix Bus
                             </span>
                         </a>
-                        
+
 
                         <a class="bi-list offcanvas-icon" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasMenu"></a>
 
@@ -91,86 +91,62 @@ Bootstrap 5 Form Pack Template
         </div>
 
 
-        <!-- Modal -->
-        <div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                <div class="modal-content">
-                    <div class="modal-header">
-
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-
-                    <div class="modal-body">
-                        <form action="#" method="get" class="custom-form mt-lg-4 mt-2" role="form">
-                            <h2 class="modal-title" id="subscribeModalLabel">Stay up to date</h2>
-
-                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="your@email.com" required="">
-
-                            <button type="submit" class="form-control">Notify</button>
-                        </form>
-                    </div>
-
-                    <div class="modal-footer justify-content-center">
-                        <p>By signing up, you agree to our Privacy Notice</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
         <section class="hero-section d-flex justify-content-center align-items-center">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-12 mx-auto">
-                        <form class="custom-form" role="form" method="post">
+                        <form class="custom-form" method="post" action="processaRegisto.php">
                             <h2 class="hero-title text-center mb-4 pb-2">Create an account</h2>
+                            <form action="processaRegisto.php" method="POST">
+                                <div class="row">
+                                    <div class="col-lg-12 col-12">
+                                        <div class="form-floating">
+                                            <input type="text" name="nome" id="nome" class="form-control" placeholder="Full Name" required="">
 
-                            <div class="row">
-                                <div class="col-lg-12 col-12">
-                                    <div class="form-floating">
-                                        <input type="text" name="full-name" id="full-name" class="form-control" placeholder="Full Name" required="">
-
-                                        <label for="floatingInput">Name</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-12">
-                                    <div class="form-floating mb-4 p-0">
-                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required="">
-
-                                        <label for="email">Email address</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-12">
-                                    <div class="form-floating p-0">
-                                        <input type="password" name="password" id="password" class="form-control" placeholder="Password" required="">
-
-                                        <label for="password">Password</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-12">
-                                    <div class="form-floating mb-4 p-0">
-                                        <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" placeholder="Phone number" required="">
-                                        <label for="phone">Phone number</label>
-                                    </div>
-                                </div>
-
-                                <div class="row justify-content-center align-items-center">
-                                    <div class="col-lg-5 col-md-5 col-5 ms-auto">
-                                        <button type="submit" class="form-control">Submit</button>
+                                            <label for="floatingInput">Name</label>
+                                        </div>
                                     </div>
 
-                                    <div class="col-lg-6 col-md-6 col-7">
-                                        <p class="mb-0">Already have an account? <a href="login.html" class="ms-2">Login</a></p>
+                                    <div class="col-lg-12 col-12">
+                                        <div class="form-floating mb-4 p-0">
+                                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required="">
+
+                                            <label for="email">Email address</label>
+                                        </div>
                                     </div>
-                                </div>
+
+                                    <div class="col-lg-12 col-12">
+                                        <div class="form-floating p-0">
+                                            <input type="password" name="password" id="password" class="form-control" placeholder="Password" required="">
+
+                                            <label for="password">Password</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 col-12">
+                                        <div class="form-floating mb-4 p-0">
+                                            <input type="tel" name="telefone" id="telefone" class="form-control" placeholder="Phone number" required="">
+                                            <label for="phone">Phone number</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-lg-5 col-md-5 col-5 ms-auto">
+                                            <button type="submit" class="form-control">Submit</button>
+                                        </div>
+                                          
+                                    </div>
+                            </form>
+
+                            <div class="col-lg-6 col-md-6 col-7">
+                                <p class="mb-0">Already have an account? <a href="login.html" class="ms-2">Login</a></p>
                             </div>
-                        </form>
-
                     </div>
                 </div>
+                </form>
+
+            </div>
+            </div>
             </div>
 
             <div class="video-wrap">
