@@ -1,0 +1,28 @@
+--
+-- Table structure for table `tipoutilizador`
+--
+
+CREATE TABLE `tipoutilizador` (
+  `TipoUtilizador` int(1) NOT NULL,
+  `Designacao` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Indexes for table `tipoutilizador`
+--
+
+ALTER TABLE `tipoutilizador`
+  ADD PRIMARY KEY (`TipoUtilizador`);
+
+--
+-- Dumping data for table `tipoutilizador`
+--
+
+INSERT INTO `tipoutilizador` (`TipoUtilizador`, `Designacao`) VALUES
+(1, 'Administrador'),
+(2, 'Funcionario'),
+(3, 'Cliente'),
+(4, 'Visitante');
+
+
+
