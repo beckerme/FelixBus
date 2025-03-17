@@ -47,15 +47,8 @@ Bootstrap 5 Form Pack Template
                                 <span>
                                     Felix Bus
                                 </span>
-                            </a>
-
+                            </a>     
                             
-
-                            <div>
-                                <a href="#" class="custom-btn custom-border-btn btn" data-bs-toggle="modal" data-bs-target="#subscribeModal">Notify me
-                                    <i class="bi-arrow-right ms-2"></i>
-                                </a>
-                            </div>
 
                             <a class="bi-list offcanvas-icon" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasMenu"></a>
 
@@ -64,8 +57,6 @@ Bootstrap 5 Form Pack Template
                     </div>
                 </div>
             </header>
-
-
             <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">                
                 <div class="offcanvas-header">                    
                     <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -91,7 +82,7 @@ Bootstrap 5 Form Pack Template
                             </li>
 
                             <li>
-                                <a href="contact.html">Contact Form</a>
+                                <a href="contact.php">About us</a>
                             </li>
                         </ul>
                     </nav>
@@ -160,7 +151,7 @@ Bootstrap 5 Form Pack Template
                                     </div>
 
                                     <div class="col-lg-5 col-12">
-                                        <a href="register.html" class="btn custom-btn custom-border-btn">Register</a>
+                                        <a href="register.php" class="btn custom-btn custom-border-btn">Register</a>
                                     </div>
                                 </div>
 
