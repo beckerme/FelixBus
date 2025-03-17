@@ -163,7 +163,7 @@ Bootstrap 5 Form Pack Template
                                     </div>
 
                                     <div class="col-lg-6 col-md-6 col-7">
-                                        <p class="mb-0">Already have an account? <a href="login.html" class="ms-2">Login</a></p>
+                                        <p class="mb-0">Already have an account? <a href="login.php" class="ms-2">Login</a></p>
                                     </div>
                                 </div>
                             </div>

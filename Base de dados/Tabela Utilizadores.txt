@@ -20,3 +20,11 @@ CREATE TABLE `utilizadores` (
 ALTER TABLE `utilizadores`
   ADD PRIMARY KEY (`_id`),
   ADD KEY `userType` (`TipoUtilizador`);
+
+
+--
+--
+--
+INSERT INTO `utilizadores` (`_id`, `nome`, `password`, `email`, `telefone`, `TipoUtilizador`)  ('1', 'cliente', 'cliente', 'cliente@hotmail.com', '111111111', '3'),
+('2', 'funcionario', 'funcionario', 'funcionario@hotmail.com', '222222222', '2'),
+('3', 'admin', 'admin', 'admin@hotmail.com', '333333333', '1');
