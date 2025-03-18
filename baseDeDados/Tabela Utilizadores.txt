@@ -21,7 +21,8 @@ ALTER TABLE `utilizadores`
   ADD PRIMARY KEY (`_id`),
   ADD KEY `userType` (`TipoUtilizador`);
 
-
+ALTER TABLE utilizadores
+	MODIFY COLUMN TipoUtilizador SET 4
 --
 --
 --
