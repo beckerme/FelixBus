@@ -107,17 +107,12 @@ Bootstrap 5 Form Pack Template
                                         </div>
                                     </div>
 
-<<<<<<< HEAD
-                                    <div class="col-lg-6 col-md-6 col-7">
-                                        <p class="mb-0">Already have an account? <a href="login.php" class="ms-2">Login</a></p>
-=======
                                     <div class="col-lg-12 col-12">
                                         <div class="form-floating mb-4 p-0">
                                             <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required="">
 
                                             <label for="email">Email address</label>
                                         </div>
->>>>>>> 9397b5b1cc08c55c3a482ae0e8b70a3e25a1e92a
                                     </div>
 
                                     <div class="col-lg-12 col-12">
@@ -135,17 +130,16 @@ Bootstrap 5 Form Pack Template
                                         </div>
                                     </div>
 
-                                    <div class="row justify-content-center align-items-center">
-                                        <div class="col-lg-5 col-md-5 col-5 ms-auto">
+                                    <div class="row justify-content-left align-items-center">
+                                        <div class="col-lg-5 col-md-5 col-5 ms-left">
                                             <button type="submit" class="form-control">Submit</button>
                                         </div>
-                                          
+                                        <div class="col-lg-6 col-md-6 col-7">
+                                            <p class="mb-0">Already have an account? <a href="login.php" class="ms-2">Login</a></p>
+                                        </div>
+                                         
                                     </div>
                             </form>
-
-                            <div class="col-lg-6 col-md-6 col-7">
-                                <p class="mb-0">Already have an account? <a href="login.html" class="ms-2">Login</a></p>
-                            </div>
                     </div>
                 </div>
                 </form>

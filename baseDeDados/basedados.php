@@ -5,7 +5,7 @@ $username = 'root';
 $password = '';
 
 // Criação da conexão MySQLi
-$conn = new mysqli($host, $username, $password_db, $dbname);
+$conn = new mysqli($host, $username, $password, $dbname);
 
 // Verifica se houve erro na conexão
 if ($conn->connect_error) {
