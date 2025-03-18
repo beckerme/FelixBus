@@ -117,8 +117,6 @@ Bootstrap 5 Form Pack Template
                     </div>
                 </div>
             </div>
-
-
             <section class="hero-section d-flex justify-content-center align-items-center">
                 <div class="container">
                     <div class="row">

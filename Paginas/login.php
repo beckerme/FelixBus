@@ -66,7 +66,7 @@ Bootstrap 5 Form Pack Template
                     <nav>
                         <ul>
                             <li>
-                                <<a href="login.php">Login</a>
+                                <a  href="login.php">Login</a>
                             </li>
 
                             <li>
@@ -122,7 +122,7 @@ Bootstrap 5 Form Pack Template
                     <div class="row">
 
                         <div class="col-lg-5 col-12 mx-auto">
-                            <form action="#" class="custom-form login-form" role="form" method="post">
+                            <form class="custom-form login-form" role="form" method="post">
                                 <h2 class="hero-title text-center mb-4 pb-2">Login</h2>
 
                                 <div class="form-floating mb-4 p-0">
@@ -156,7 +156,6 @@ Bootstrap 5 Form Pack Template
                                 </div>
 
                             </form>
-                            
                         </div>
                     </div>
                 </div>
