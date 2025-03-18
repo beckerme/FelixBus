@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Kool Form Pack | Contact Form page</title>
+        <title>Felix bus| About us</title>
 
         <!-- CSS FILES -->                
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,32 +45,11 @@ Bootstrap 5 Form Pack Template
                                 <i class="bi-box"></i>
 
                                 <span>
-                                    Kool Form Pack
+                                   Felix Bus
                                 </span>
                             </a>
 
-                            <ul class="social-icon d-flex justify-content-center align-items-center mx-auto">
-                                <span class="text-white me-4 d-none d-lg-block">Stay connected</span>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-instagram"></a>
-                                </li>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-twitter"></a>
-                                </li>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-whatsapp"></a>
-                                </li>
-                            </ul>
-
-                            <div>
-                                <a href="#" class="custom-btn custom-border-btn btn" data-bs-toggle="modal" data-bs-target="#subscribeModal">Notify me
-                                    <i class="bi-arrow-right ms-2"></i>
-                                </a>
-                            </div>
-
+                            
                             <a class="bi-list offcanvas-icon" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasMenu"></a>
 
                         </div>
@@ -89,15 +68,15 @@ Bootstrap 5 Form Pack Template
                     <nav>
                         <ul>
                             <li>
-                                <a href="login.html">Login Form</a>
+                                <a href="login.php">Login Form</a>
                             </li>
 
                             <li>
-                                <a href="register.html">Create an account</a>
+                                <a href="register.php">Create an account</a>
                             </li>
 
                             <li>
-                                <a href="password-reset.html">Password Reset</a>
+                                <a href="password-reset.php">Password Reset</a>
                             </li>
 
                             <li>
@@ -105,7 +84,7 @@ Bootstrap 5 Form Pack Template
                             </li>
 
                             <li>
-                                <a class="active" href="contact.html">Contact Form</a>
+                                <a class="active" href="contact.php">About us</a>
                             </li>
                         </ul>
                     </nav>
@@ -146,14 +125,14 @@ Bootstrap 5 Form Pack Template
 
                         <div class="col-lg-6 col-12 mx-auto">
                             <form class="custom-form contact-form" role="form" method="post">
-                                <h2 class="hero-title text-center mb-4 pb-2">Contact Form</h2>
+                                <h2 class="hero-title text-center mb-4 pb-2">Contact</h2>
 
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-12">
                                         <div class="form-floating">
                                             <input type="text" name="full-name" id="full-name" class="form-control" placeholder="Full Name" required="">
                                             
-                                            <label for="floatingInput">Full Name</label>
+                                            <label for="floatingInput">Name</label>
                                         </div>
                                     </div>
 
