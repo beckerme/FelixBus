@@ -1,0 +1,30 @@
+
+--
+-- Table structure for table `utilizadores`
+--
+
+CREATE TABLE `utilizadores` (
+  `_id` int(11) NOT NULL,
+  `nome` varchar(40) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  `email` varchar(40) NOT NULL,
+  `telefone` varchar(15) NOT NULL,
+  `TipoUtilizador` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+
+--
+-- Indexes for table `utilizadores`
+--
+
+ALTER TABLE `utilizadores`
+  ADD PRIMARY KEY (`_id`),
+  ADD KEY `userType` (`TipoUtilizador`);
+
+
+--
+--
+--
+INSERT INTO `utilizadores` (`_id`, `nome`, `password`, `email`, `telefone`, `TipoUtilizador`)  ('1', 'cliente', 'cliente', 'cliente@hotmail.com', '111111111', '3'),
+('2', 'funcionario', 'funcionario', 'funcionario@hotmail.com', '222222222', '2'),
+('3', 'admin', 'admin', 'admin@hotmail.com', '333333333', '1');
